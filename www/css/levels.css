@@ -1,0 +1,126 @@
+/* Specific styles for Level 1 */
+#game {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+#problem {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+#problem p {
+    font-size: 24px;
+}
+
+#numberButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.numberButton {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.numberButton:hover {
+    background-color: #0056b3;
+}
+
+#checkAnswer {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#checkAnswer:hover {
+    background-color: #0056b3;
+}
+
+#feedback {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Heart icon style */
+.heart-icon::before {
+    content: '\2764'; /* Unicode for heart symbol */
+    color: red;
+    font-size: 24px;
+}
+
+.level-badge {
+    font-size: 18px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#level-container {
+    margin-top: 20px;
+}
+/* Add styles to the input field */
+#userInput {
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none; /* Remove the default outline */
+}
+
+#userInput:focus {
+    border-color: #0056b3; /* Change border color when focused */
+}
+/* Add this to your level1.css file */
+.back-button {
+    background-color: #ff6347; /* Red background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+}
+
+.back-button i {
+    margin-right: 10px; /* Add space between icon and text */
+}
+
+.back-button:hover {
+    background-color: #ff0000; /* Darker red on hover */
+    color: #fff;
+}

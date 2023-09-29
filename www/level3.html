@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Stage 2 - Multiplication Game</title>
+    <link rel="stylesheet" type="text/css" href="css/levels.css"> 
+</head>
+<body>
+    <div id="game">
+        <button id="index" class="back-button">Back</button>
+        <h1>Stage 3 - Multiplication Game</h1>
+        <div id="feedback">
+            <div id="left-feedback">
+                <p>Lives: <span id="lives"><i class="heart-icon"></i><i class="heart-icon"></i><i class="heart-icon"></i></span></p>
+            </div>
+            <div id="right-feedback">
+                <p>Score: <span id="score">0</span></p>
+            </div>
+        </div>
+        <div id="problem">
+            <p>What is ? <span id="num1"></span> × <span id="num2"></span> =</p>
+            <input type="text" id="userInput">
+            <button id="checkAnswer">Check</button>
+            <p><span id="level">1</span></p>
+        </div>
+       
+    </div>
+    <script src="js/level3.js"></script>
+</body>
+</html>

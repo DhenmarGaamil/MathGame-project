@@ -1,0 +1,75 @@
+/* Reset default styles */
+body, h1, h2, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the main container */
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the menu container */
+#menu {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+/* Style the header */
+#menu h1 {
+    font-size: 24px;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+/* Style the level selection header */
+#menu h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style the level buttons container */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the modern button */
+.level-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px 0;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #007BFF;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.level-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+}
+
+.level-button:focus {
+    outline: none;
+    background-color: #0056b3;
+    color: #fff;
+}
